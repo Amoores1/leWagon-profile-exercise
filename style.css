@@ -8,31 +8,31 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  width: 50vw;
+  width: 50%;
   align-content: center;
   justify-content: center;
-  margin: 40px auto;
+  margin: 10px auto;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  width: 50vw;
-  padding-bottom: 15px;
-  border: 1px solid lightgrey;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-  border-radius: 4px;
-  margin: 20px 0px;
+  width: 100%;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.4);
+  border-radius: 7px;
+  margin: 10px 0px;
   background-color: #faf3dd;
 }
 
 h1 {
   background-color: #16697a;
-  padding: 20px;
+  padding: 10px;
   color: #ede7e3;
   text-align: center;
   font-weight: 700;
   font-size: 40px;
+  margin-block-start: 0 !important;
+  border-radius: 7px 7px 0 0;
 }
 
 h2 {
@@ -46,10 +46,13 @@ p {
   text-align: center;
   color: #08252a;
   padding: 9px;
+  font-size: 13px;
 }
 
 .p-style {
   background-color: #82c0cc;
+  border-radius: 0 0 7px 7px ;
+
 }
 
 .animated-circle-img {
@@ -73,7 +76,7 @@ img {
 }
 .fa-brands {
   transition: transform .2s;
-  padding: 30px;
+  padding: 15px;
   color: black;
 }
 
@@ -86,12 +89,23 @@ img {
   background-color: #c15a14;
 }
 
-#button-container{
+#button-container {
   text-align: center;
+  padding-bottom: 10px;
+  border-radius: 7px;
+}
+button {
+  font-family: 'Merriweather', serif;
+  border-radius: 7px;
+  background-color: white;
+  border: none;
+  font-size: 9px;
 }
 
 #white{
   color:white;
+  padding: 0;
+  margin: 10px;
 }
 
 
